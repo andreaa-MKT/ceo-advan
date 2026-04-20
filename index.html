@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel Guerrero | CEO Advan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --primary: #00aaff; /* Ajustar al azul exacto de Advan */
+            --bg: #0a0a0a;
+            --card-bg: rgba(255, 255, 255, 0.05);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100-vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 { font-size: 1.5rem; margin-bottom: 5px; font-weight: 700; }
+        .tagline { color: var(--primary); font-size: 0.9rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .bio { 
+            font-size: 0.85rem; 
+            line-height: 1.6; 
+            margin-bottom: 30px; 
+            color: #ccc; 
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        .links-container { display: grid; gap: 12px; }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            background: var(--card-bg);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+            border-color: var(--primary);
+        }
+
+        .btn-main { background: var(--primary); font-weight: 600; }
+
+        .social-icons {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons a { color: white; font-size: 1.5rem; transition: 0.3s; }
+        .social-icons a:hover { color: var(--primary); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://via.placeholder.com/150" alt="Manuel Guerrero" class="profile-img">
+    
+    <h1>Manuel Guerrero</h1>
+    <div class="tagline">Founder & CEO @ Advan</div>
+
+    <div class="bio">
+        Especialista en transformar el sector de transporte de carga en México mediante innovación tecnológica y alto impacto operacional.
+    </div>
+
+    <div class="links-container">
+        <a href="mailto:manuelg@advanpro.com.mx" class="btn btn-main">Enviar Correo</a>
+        <a href="https://www.advanpro.com.mx" target="_blank" class="btn">Sitio Web Oficial</a>
+        <a href="https://www.linkedin.com/company/advanpromx/" target="_blank" class="btn">LinkedIn Corporativo</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/AdvanProMx"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@advanpromx"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <p style="font-size: 0.7rem; margin-top: 40px; opacity: 0.5;">ADVAN PRO | Logística Inteligente</p>
+</div>
+
+</body>
+</html>
